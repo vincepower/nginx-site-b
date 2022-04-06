@@ -26,6 +26,4 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: |
-            vincepower/nginx-site-b:latest
-            ghcr.io/vincepower/nginx-site-b:latest
+          tags: ghcr.io/vincepower/nginx-site-b:latest
